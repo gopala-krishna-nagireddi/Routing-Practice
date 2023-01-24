@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.about-img {
+  width: 200px;
+}
+
+.about-name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #551e53;
+}
+
+.about-note {
+  font-size: 25px;
+  color: #555555;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    margin-top: 10%;
+  }
+  .about-note {
+    font-size: 36px;
+  }
+}

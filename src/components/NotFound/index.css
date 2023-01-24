@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-container {
+    margin-top: 10%;
+  }
+}
+.not-found-img {
+  width: 300px;
+}
+
+.not-found-name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #551e53;
+}
